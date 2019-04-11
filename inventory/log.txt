@@ -1,0 +1,753 @@
+10:17:32,401 log_detail.views INFO dta : {'name': 'Trosers', 'brand': 'Peter England', 'product_code': 'ADGYT123343241', 'variant': [{'name': 'L', 'selling_price': 1599, 'cost_price': 1000, 'quantity': 30, 'properties': {'type': 'Slim', 'color': 'Black', 'size': 'L'}}, {'name': 'XL', 'selling_price': 2234, 'cost_price': 2000, 'quantity': 150, 'properties': {'type': 'Slim', 'color': 'Blue', 'size': 'XL'}}]}
+10:17:32,437 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    self.perform_create(serializer)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 26, in perform_create
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 184, in save
+    'You cannot call `.save()` on a serializer with invalid data.'
+AssertionError: You cannot call `.save()` on a serializer with invalid data.
+10:20:40,33 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    self.perform_create(serializer)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 26, in perform_create
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 184, in save
+    'You cannot call `.save()` on a serializer with invalid data.'
+AssertionError: You cannot call `.save()` on a serializer with invalid data.
+10:21:21,941 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    self.perform_create(serializer)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 26, in perform_create
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 184, in save
+    'You cannot call `.save()` on a serializer with invalid data.'
+AssertionError: You cannot call `.save()` on a serializer with invalid data.
+10:27:03,226 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    self.perform_create(serializer)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 26, in perform_create
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 180, in save
+    'You must call `.is_valid()` before calling `.save()`.'
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+10:28:48,579 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    self.perform_create(serializer)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 42, in perform_create
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 180, in save
+    'You must call `.is_valid()` before calling `.save()`.'
+AssertionError: You must call `.is_valid()` before calling `.save()`.
+10:32:06,883 django.request WARNING Bad Request: /logApp/item/
+10:34:28,264 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 30, in create
+    LogData.objects.create(log_data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: create() takes 1 positional argument but 2 were given
+10:37:48,105 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 31, in create
+    log_object = LogData(user="Bob", item= "test_name", action="add", variant= "test")
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    raise TypeError("'%s' is an invalid keyword argument for this function" % kwarg)
+TypeError: 'user' is an invalid keyword argument for this function
+10:44:49,769 django.request ERROR Internal Server Error: /logApp/logdata/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 102, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'str' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 527, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 475, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `ItemSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `str` instance.
+Original exception text was: 'str' object has no attribute 'name'.
+10:57:49,533 django.request ERROR Internal Server Error: /logApp/item/1
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 257, in put
+    return self.update(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 80, in perform_update
+    serializer.save()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 209, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 970, in update
+    raise_errors_on_nested_writes('update', self, validated_data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 820, in raise_errors_on_nested_writes
+    class_name=serializer.__class__.__name__
+AssertionError: The `.update()` method does not support writable nested fields by default.
+Write an explicit `.update()` method for serializer `log_detail.serializers.ItemSerializer`, or set `read_only=True` on nested serializer fields.
+11:12:54,454 django.request ERROR Internal Server Error: /logApp/logdata/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 68, in list
+    start_time = request.data['start_time']
+KeyError: 'start_time'
+11:14:11,339 django.request ERROR Internal Server Error: /logApp/logdata/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 102, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 75, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 475, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `item` on serializer `LogDataSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'item'.
+11:25:14,357 django.request ERROR Internal Server Error: /logApp/logdatacreate/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 454, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 102, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'item'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 79, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 560, in data
+    ret = super(Serializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\fields.py", line 475, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `item` on serializer `LogDataSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'item'.
+11:26:50,53 django.request ERROR Internal Server Error: /logApp/logdatacreate/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 241, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SerializerMetaclass' object is not iterable
+11:28:01,109 django.request WARNING Not Found: /logApp/item/1
+11:28:05,914 django.request WARNING Method Not Allowed: /logApp/item/1
+11:28:09,716 django.request WARNING Method Not Allowed: /logApp/item/1
+11:28:20,562 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 35, in create
+    user = request.data.pop('user')
+KeyError: 'user'
+11:29:07,303 django.request WARNING Method Not Allowed: /logApp/item/1
+11:29:35,481 django.request ERROR Internal Server Error: /logApp/logdatacreate/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 241, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'SerializerMetaclass' object is not iterable
+11:39:41,928 django.request ERROR Internal Server Error: /logApp/logdatafilter/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 72, in get_queryset
+    if self.kwargs['user']:
+KeyError: 'user'
+11:46:07,898 django.request ERROR Internal Server Error: /logApp/logdatafilter/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 77, in get_queryset
+    return LogData.objects.all(created_at__range=(start_date, end_date))
+TypeError: all() got an unexpected keyword argument 'created_at__range'
+11:56:05,678 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 72, in get_queryset
+    start_date=self.request.data['start_time']
+KeyError: 'start_time'
+12:01:04,881 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 999, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class LogDataSerializer missing "Meta" attribute
+12:01:36,460 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 510, in to_representation
+    fields = self._readable_fields
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 1022, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 1099, in get_field_names
+    serializer_class=self.__class__.__name__
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the LogDataSerializer serializer.",)
+12:04:41,285 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\serializers.py", line 54, in to_representation
+    data['body'] = "User : {} performed {} action on {} for item {}".format(self.user,self.action , self.variant, self.item)
+AttributeError: 'LogDataSerializer' object has no attribute 'user'
+12:07:53,678 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\serializers.py", line 58, in to_representation
+    data['body'] = "User : {} performed {} action on {} for item {}".format(self.user,self.action , self.variant, self.item)
+AttributeError: 'LogDataSerializer' object has no attribute 'user'
+12:07:57,504 django.request ERROR Internal Server Error: /logApp/logdatafilter/Alice/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 683, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\serializers.py", line 58, in to_representation
+    data['body'] = "User : {} performed {} action on {} for item {}".format(self.user,self.action , self.variant, self.item)
+AttributeError: 'LogDataSerializer' object has no attribute 'user'
+12:22:43,163 log_detail.views INFO --not here---NoneNone
+12:24:19,61 log_detail.views INFO --not here---NoneNone
+12:24:50,76 log_detail.views INFO --not here---NoneNone
+12:25:49,930 log_detail.views INFO --here---2019-01-20T05:01:35.819565Z2019-01-20T05:01:35.819565Z
+12:26:03,528 log_detail.views INFO --here---2019-01-20T06:01:35.819565Z2019-01-20T06:02:35.819565Z
+12:46:26,585 django.request WARNING Not Found: /logApp/item/10
+12:56:44,294 django.request WARNING Not Found: /logApp/logdata/1
+12:56:51,61 django.request WARNING Not Found: /logApp/logdata/1/
+12:57:27,382 django.request WARNING Not Found: /logApp/logdata/1/
+12:57:30,754 django.request WARNING Not Found: /logApp/logdata/1/
+12:57:37,468 django.request WARNING Not Found: /logApp/logdata/1
+13:48:25,896 django.request ERROR Internal Server Error: /logApp/item/
+Traceback (most recent call last):
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 244, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\rdhek\PycharmProjects\inventory\inventory\log_detail\views.py", line 34, in create
+    LogData.objects.create(LogDataSerializer,log_data)
+  File "C:\Users\rdhek\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: create() takes 1 positional argument but 3 were given

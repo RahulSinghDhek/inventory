@@ -1,0 +1,159 @@
+Create a virtual environment and use requirments.txt for installation
+Or directly install the project related interpreter/libraries from requirements.tx
+
+Building django app
+    1. Go to inventory/inventory
+       cd inventory/inventory
+       The folder that has manage.py
+
+    2.  Make migrations with existing test data set
+        python manage.py makemigrations log_detail
+        python manage.py migrate log_detail
+
+    3.  Deploy the app locally
+        python manage.py runserver
+
+    4.  App gets live at http://127.0.0.1:8000/
+
+Testing and using REST Api
+    1.  Item:
+        Method : POST
+        URL : http://127.0.0.1:8000/logApp/item/
+        Request :
+        {
+            "name": "Shirt",
+            "brand": "Wrogn",
+            "product_code":"ADGWER23343241",
+            "variant":[{
+                "name":"M",
+                "selling_price":1599,
+                "cost_price":1000,
+                "quantity":50,
+                "properties":{
+                    "type":"slim",
+                    "color":"Black",
+                    "size":"M"
+                }
+            },
+            {
+                "name":"L",
+                "selling_price":1234,
+                "cost_price":1200,
+                "quantity":100,
+                "properties":{
+                    "type":"fit",
+                    "color":"Blue",
+                    "size":"L"
+                }
+            }]
+        }
+
+
+
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/item/
+        Details: Gets all the item
+
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/item/1
+        Details: Get Item with id=1
+
+    2.  Variant
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/variant/
+        Details: Gets all variants
+
+    3.  Properties
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/properties/
+        Details: Get all the properties
+
+    4.  LogData
+        Method : POST
+        URL : http://127.0.0.1:8000/logApp/logdata/
+        Details: Add the log detail
+        Request:
+        {
+            "user":"Cathy",
+            "item":"Shirt",
+            "variant":"size",
+            "action":"edit"
+        }
+
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/logdata/
+        Details: Get all the log details
+
+        Method : GET
+        URL : http://127.0.0.1:8000/logApp/logdatafilter/
+        Details: Get all the filtered logs between two dates
+        Request:
+        {
+           "start_time": "2019-01-20T06:01:35.819565Z",
+           "end_time": "2019-01-20T06:02:35.819565Z"
+        }
+        Response:
+        [
+            {
+                "body": "User : Bob performed edit action on color for item jeans"
+            },
+            {
+                "body": "User : Bob performed edit action on color for item Trouser"
+            },
+            {
+                "body": "User : Bob performed edit action on size for item Trouser"
+            },
+            {
+                "body": "User : Bob performed edit action on type for item Trouser"
+            },
+            {
+                "body": "User : Alice performed edit action on selling_price for item Trouser"
+            },
+            {
+                "body": "User : Alice performed edit action on Size for item Trouser"
+            }
+        ]
+
+        Method: GET
+        URL : http://127.0.0.1:8000/logApp/logdatafilter/Alice/
+        Details: Get all the filtered logs between two dates where user=Bob
+        Request:
+        {
+           "start_time": "2019-01-20T06:01:35.819565Z",
+           "end_time": "2019-01-20T06:02:35.819565Z"
+        }
+        Response:
+        [
+            {
+                "body": "User : Alice performed edit action on selling_price for item Trouser"
+            },
+            {
+                "body": "User : Alice performed edit action on Size for item Trouser"
+            }
+        ]
+
+    NOTE: The filed "body" in response is derived from the JSON output like below.
+    We can also parse the JSON and group the actions based on "User"
+
+    Original Response : Example
+    {
+        "id": 5,
+        "created_at": "2019-01-20T06:02:13.696649Z",
+        "item": "Trouser",
+        "variant": "selling_price",
+        "action": "edit",
+        "user": "Alice"
+    },
+    {
+        "id": 6,
+        "created_at": "2019-01-20T06:02:23.838062Z",
+        "item": "Trouser",
+        "variant": "Size",
+        "action": "edit",
+        "user": "Alice"
+    },
+
+All the APIs are tested using "Postman" windows application
+
+
+
